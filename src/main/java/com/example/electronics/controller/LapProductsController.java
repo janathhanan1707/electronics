@@ -4,9 +4,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.example.electronics.dao.ListProductRepository;
 import com.example.electronics.model.ListProducts;
 
@@ -27,8 +25,6 @@ public class LapProductsController {
 		catch(Exception e) {
 			System.out.println(e.getMessage());
 			return null;
-		}
-		
-				
+		}				
 	}
 }

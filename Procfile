@@ -1,1 +1,1 @@
-web: java -Xms150M -jar target/stockmanagement-api-0.0.1-SNAPSHOT.jar
+web: java -Xms150M -jar target/electronics-0.0.1-SNAPSHOT.jar
